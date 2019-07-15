@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fight Result</title>
+</head>
+<body style="background-color:White;font-family: Calibri">
+    <h1 style="color:black;font-size:50px">
+        <center><b>
+            <img src="{{result[2]}}" alt="{{result[0]}}" style="height:200px;width:200px"> {{result[0]}}  VS  {{result[1]}} <img src="{{result[3]}}" alt="{{result[1]}}" style="height:200px;width:200px">
+        </b></center>
+    </h1>
+    <center>
+    <img src="{{result[6]}}" width="850" height="500">
+    </center>
+    <h1>
+        <center>
+            <b>{{result[5]}}% {{result[4]}} wins!</b>
+        </center>
+    </h1>
+    <br>
+    <center>
+        <form action="http://localhost:5000/">
+            <p> 
+            <input type="submit" value="Back">
+            </p>
+        </form>
+    </center>
+</body>
+</html>
